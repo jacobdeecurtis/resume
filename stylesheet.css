@@ -1,0 +1,41 @@
+
+/*learn abour wrap*/
+body {
+	background-image: url("supersexypicture.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div {
+	right:100px;
+	position: absolute;
+	height: 105%;
+	width: 30%;
+	background-color: rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+	color:white;
+	font-size:4em;
+	padding-left:16px;
+}
+
+form {
+
+}
+<FORM METHOD="LINK" ACTION="emailMe.html">
+<INPUT TYPE="submit" VALUE="Clickable Button">
+</FORM>
+
+p {
+	color:white;
+}
+
+@media (max-width: 771px) {
+	div {
+		width: 20%;
+	}
+	h1 {
+		font-size:5px;
+	}
+}
